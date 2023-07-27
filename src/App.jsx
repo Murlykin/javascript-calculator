@@ -1,8 +1,8 @@
+import './App.css'
 import { useReducer } from 'react'
 import DigitButton from './components/DigitButton'
 import Display from './components/Display'
 import OperationButton from './components/OperationButton'
-import './index.css'
 import { ACTIONS } from './js/actions'
 import formatOperand from './js/formatOperand'
 import reducer from './js/reducer'
@@ -16,8 +16,8 @@ const App = () => {
 
   return (
     <>
-      <div className='z-0 flex h-screen items-center justify-center font-body text-lg sm:text-xl'>
-        <div className='grid h-[420px] w-[280px] grid-cols-4 grid-rows-6 gap-[2px] border-2 border-gray-950 bg-gray-950 text-white sm:h-[480px] sm:w-[320px]'>
+      <div className='calku__section'>
+        <div className='calku__container'>
           <Display
             operation={operation}
             previous={formatOperand(previous)}

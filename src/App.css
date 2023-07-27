@@ -1,0 +1,17 @@
+.calku__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.calku__container {
+  display: grid;
+  height: 420px;
+  width: 280px;
+  gap: 5px;
+  border: 1px rgb(28, 25, 8);
+  color: aliceblue;
+  border: 2px solid #dd5106;
+  border-radius: 4px;
+}

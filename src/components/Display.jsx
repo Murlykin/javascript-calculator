@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 const Display = ({ operation, previous, current }) => {
   return (
     <div
-      className='col-span-4 bg-blue-950 px-2 py-1 text-right font-display'
+      className='col-span-4 bg-indigo-600 px-2 py-1 text-right font-display border-2'
       id='display'
     >
       <div className='flex h-1/2 items-center justify-end'>
