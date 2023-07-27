@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply focus-visible:outline-none;
+  }
+}
+body {
+  background-color: chocolate;}
+
+button {
+  border-radius: 6px;
+}
+.grid {
+  border-radius: 4px;
+}
